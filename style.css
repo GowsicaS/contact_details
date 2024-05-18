@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.middle-heading{
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+.card{
+    width: 80%;
+    margin: 30px 20px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.custom-btn{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0px;
+    color: #ffffff;
+    background-color: rgb(35, 97, 231);
+    border-width: 0px;
+    border-radius: 5px;
+}
+.sub-heading{
+    margin: 20px 0px;
+}
+label{
+    margin: 5px 0px;
+}
+input{
+    height: 25px;
+    padding: 5px;
+}
+.contact-bar{
+    box-shadow: 1px 1px 10px 1px rgb(209, 214, 214);
+    margin: 40px 0px 20px 0px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    margin: 8px 0px;
+    font-size: 30px;
+    font-family: 600px;
+}
+.mail-id{
+    margin: 8px 0px;
+    color: #000000;
+}
+span{
+    font-weight: 900;
+    color: black;
+}
+
+.delete{
+    width: 80px;
+    height: 30px;
+    color: #ee2020;
+    background-color: transparent;
+    border: 1px solid #ee2020;
+    border-radius: 5px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
